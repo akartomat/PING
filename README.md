@@ -5,7 +5,7 @@ Nama Kelompok: collabs
 Nama Anggota:
 1) Anugerah Ramadhan Arinal - 21523257
 2) Ratih Sekar Wulan - 21523078
-3)
+3) Athaillah Nurcahyo Arya Gunawan - 21523003
 4)
 5)
 6)
@@ -24,7 +24,9 @@ Anggota 2:
 - Mendesain tampilan aplikasi dalam bentuk prototype figma: login, dashboard, schedule, diary, medicine log, penambahan obat + pengaturan alarm, pengecekan kondisi dan alarm.
 
 Anggota 3:
+- Membuat tampilan form dalam pembuatan alarm, di bagian perincian deksripsi obat.
 
+Anggota 4: 
 -
 -
 
