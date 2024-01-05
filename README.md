@@ -7,7 +7,7 @@ Nama Anggota:
 2) Ratih Sekar Wulan - 21523078
 3) Athaillah Nurcahyo Arya Gunawan - 21523003
 4) Muhammad Maulana Sahputra - 21523206
-5)
+5) Rizal Muhammad Ramli - 21523138
 6)
 
 Job Desc:
@@ -32,7 +32,7 @@ Anggota 4:
 - Menyambungkan page Kuesioner untuk memasukkan inputan kondisi ke page Diary.
 
 Anggota 5: 
--
+- Membuat tampilan medicine log, beserta fungsionalitas kembali ke halaman utama (dashboard) yang dapat digunakan dengan button back yang berada di sebelah kiri page medicine log.
 
 
 
