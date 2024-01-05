@@ -6,7 +6,7 @@ Nama Anggota:
 1) Anugerah Ramadhan Arinal - 21523257
 2) Ratih Sekar Wulan - 21523078
 3) Athaillah Nurcahyo Arya Gunawan - 21523003
-4)
+4) Muhammad Maulana Sahputra - 21523206
 5)
 6)
 
@@ -27,7 +27,10 @@ Anggota 3:
 - Membuat tampilan form dalam pembuatan alarm, di bagian perincian deksripsi obat.
 
 Anggota 4: 
--
+- Membuat tampilan diary dan status page serta fungsional diary dan status page.
+- Menyambungkan fungsionalitas dari page Diary ke page status kondisi.
+- Menyambungkan page Kuesioner untuk memasukkan inputan kondisi ke page Diary.
+
 -
 
 
