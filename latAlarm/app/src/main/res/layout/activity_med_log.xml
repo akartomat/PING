@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/skyblue_background"
+    tools:context=".MedLog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            android:src="@drawable/icon_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medicine Log"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="2dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Active"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/activeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inactive"
+        android:textSize="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"/>
+
+    <!-- Card for Insulin -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/insulin"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="10dp">
+
+        <!-- UI elements for Insulin -->
+        <!-- Customize the UI elements based on your requirements -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:textStyle="bold"
+                android:text="Insulin">
+            </TextView>
+
+            <!-- Add other UI elements for Insulin as needed -->
+            <!-- ... -->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card for Metformin -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/metformin"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="10dp">
+
+        <!-- UI elements for Metformin -->
+        <!-- Customize the UI elements based on your requirements -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:textStyle="bold"
+                android:text="Metformin">
+            </TextView>
+
+            <!-- Add other UI elements for Metformin as needed -->
+            <!-- ... -->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card for Pioglitazone -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pioglitazone"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="10dp">
+
+        <!-- UI elements for Pioglitazone -->
+        <!-- Customize the UI elements based on your requirements -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:textStyle="bold"
+                android:text="Pioglitazone">
+
+            </TextView>
+
+            <!-- Add other UI elements for Pioglitazone as needed -->
+            <!-- ... -->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Card for Forxiga -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/forxiga"
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="10dp">
+
+        <!-- UI elements for Forxiga -->
+        <!-- Customize the UI elements based on your requirements -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:textStyle="bold"
+                android:text="Forxiga">
+            </TextView>
+
+            <!-- Add other UI elements for Forxiga as needed -->
+            <!-- ... -->
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

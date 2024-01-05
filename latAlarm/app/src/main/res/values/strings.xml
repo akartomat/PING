@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">latAlarm</string>
+    <string name="hint_medicine_name">Nama Obat</string>
+    <string name="hint_dosage">Dosis</string>
+    <string name="hint_guidance">Petunjuk Konsumsi</string>
+    <string name="hint_timeset">Pengaturan Waktu</string>
+
+
+    <string name="greeting">Halo!</string>
+
+    <string name="tanggal">Sabtu, 14 Oktober 2023</string>
+    <string name="jam">11:00</string>
+    <string name="med">Metformin</string>
+    <string name="dosis">1 tablet, </string>
+
+    <string name="title_schedule">Schedule</string>
+    <string name="desc_schedule">Jadwal konsumsi obat dan pengaturan alarm pengingat</string>
+
+    <string name="title_diary">Diary</string>
+    <string name="desc_diary">Hasil pengecekan kondisi pengguna secara berkala dan catatan pengguna</string>
+
+    <string name="title_log">Medicine Log</string>
+    <string name="desc_log">Daftar obat yang dikonsumsi pengguna dan pengaturan jadwal</string>
+
+    <string name="nama">Nama Pengguna</string>
+    <string name="email">Email</string>
+    <string name="logout">Logout</string>
+    <string name="hapus">Hapus Akun</string>
+
+    <string name="konfHapus">Apakah anda yakin mau menghapus akun?</string>
+    <string name="yaHapus">Ya, hapus akun</string>
+
+
+</resources>

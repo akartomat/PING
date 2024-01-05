@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#F3F3F3"
+    tools:context=".Dashboard">
+
+    <ImageView
+        android:id="@+id/imgDash"
+        android:layout_width="449dp"
+        android:layout_height="445dp"
+        android:layout_marginBottom="436dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dashimg" />
+
+    <TextView
+        android:id="@+id/textGreeting"
+        android:layout_width="130dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/greeting"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/viewMenu"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnSetting"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/setting"
+        android:onClick="imageBtnOnClick"
+        app:layout_constraintBottom_toTopOf="@+id/viewMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <LinearLayout
+        android:id="@+id/viewMenu"
+        android:layout_width="352dp"
+        android:layout_height="581dp"
+        android:background="@drawable/rounded_bg"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.889"
+        tools:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/viewNextMed"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_bg2"
+            android:elevation="5dp"
+            android:visibility="visible">
+
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/textALkosong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="Belum ada alarm yang tersimpan"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/textJam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:text="11:00"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/garisJam"
+                android:visibility="invisible"
+                android:layout_width="1dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/black"/>
+
+            <TextView
+                android:id="@+id/textMed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="55dp" />
+
+            <TextView
+                android:id="@+id/textDospet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginLeft="170dp"
+                android:textSize="11sp"
+                android:textStyle="italic" />
+
+
+
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/rounded_btn"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleSchedule"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="16dp"
+                android:text="@string/title_schedule"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descSchedule"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="1dp"
+                android:text="@string/desc_schedule"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonLog"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/rounded_btn2"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleLog"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="16dp"
+                android:text="@string/title_log"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descLog"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="1dp"
+                android:text="@string/desc_log"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonDiary"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginHorizontal="3dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/rounded_btn"
+            android:elevation="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleDiary"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="16dp"
+                android:text="@string/title_diary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/descDiary"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="12dp"
+                android:paddingTop="1dp"
+                android:text="@string/desc_diary"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
