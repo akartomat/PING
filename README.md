@@ -31,6 +31,7 @@ Anggota 4:
 - Menyambungkan fungsionalitas dari page Diary ke page status kondisi.
 - Menyambungkan page Kuesioner untuk memasukkan inputan kondisi ke page Diary.
 
+Anggota 5: 
 -
 
 
