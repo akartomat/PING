@@ -8,7 +8,7 @@ Nama Anggota:
 3) Athaillah Nurcahyo Arya Gunawan - 21523003
 4) Muhammad Maulana Sahputra - 21523206
 5) Rizal Muhammad Ramli - 21523138
-6)
+6) Gloria Raphaela Mei Lanny Br Aritonang - 23991023
 
 Job Desc:
 Anggota 1:
@@ -34,6 +34,9 @@ Anggota 4:
 Anggota 5: 
 - Membuat tampilan medicine log, beserta fungsionalitas kembali ke halaman utama (dashboard) yang dapat digunakan dengan button back yang berada di sebelah kiri page medicine log.
 
+Anggota 6 :
+- Membuat tampilan form login yajg terdiri dari username dan password
+- Membantu merancang desain prototipe 
 
 
 
